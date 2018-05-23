@@ -1,0 +1,38 @@
+.dashboard {
+    font-family: Lato;
+    background: #f1f1f4;
+    height: 100vh;
+}
+
+.dashboard__list {
+    background-color: var(--darkBlue);
+    border-bottom: 2px solid #5e1fe4;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto 50px;
+    padding: 80px 30px 20px;
+}
+
+.dashboard__elem {
+}
+
+.dashboard__link {
+    color: white;
+    display: flex;
+    font-size: 1.2em;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+:global(.active),
+.dashboard__link:hover {
+    color: #5e1fe4;
+}
+
+.dashboard__icon {
+    height: 30px;
+    margin-right: 20px;
+}

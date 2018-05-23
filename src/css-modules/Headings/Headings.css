@@ -1,0 +1,17 @@
+.heading {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 20px 0 40px;
+    position: relative;
+}
+
+.heading:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 5px;
+    background: #00d69e;
+}

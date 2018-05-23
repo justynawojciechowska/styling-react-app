@@ -1,0 +1,24 @@
+.button {
+    background: transparent;
+    border: 2px solid #00d69e;
+    color: #00d69e;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2em;
+    margin: 20px auto 50px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.button.active {
+
+}
+
+.button:hover {
+    background: #00d69e;
+    color: white;
+}
+
+.button:focus {
+    outline: none;
+}
